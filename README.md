@@ -19,5 +19,5 @@ Requires Node 18+ and git available in `PATH`.
 Run inside a git repository with pending changes. The wizard:
 
 - Uses `inquirer` for prompts and `execa` for git commands
-- Builds Conventional Commit headers, optional scope, body, breaking change footer, refs, and closes footers
-- Executes `git commit -F <tempfile>` with optional `--amend`, `--signoff`, `--no-verify`
+- Builds Conventional Commit headers, optional scope, optional body (you can skip the editor), breaking change footer, refs, and closes footers
+- Executes `git commit -F <tempfile>` automatically after the preview (no extra flags)
