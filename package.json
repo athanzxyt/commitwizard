@@ -5,8 +5,8 @@
   "type": "module",
   "author": "Athan Zhang <dev@athan.sh>",
   "bin": {
-    "commitwizard": "./bin/commitwizard.js",
-    "git-wiz": "./bin/commitwizard.js"
+    "commitwiz": "./bin/commitwiz.js",
+    "git-wiz": "./bin/commitwiz.js"
   },
   "engines": {
     "node": ">=18"
@@ -21,6 +21,8 @@
     "cli",
     "commit",
     "conventional-commits",
-    "wizard"
+    "wizard",
+    "wiz",
+    "commitwiz"
   ]
 }

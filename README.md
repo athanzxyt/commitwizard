@@ -1,4 +1,4 @@
-# commitwizard
+# commitwiz
 
 Interactive git commit wizard with Conventional Commit prompts, optional staging picker, and a git-style alias `git wiz`.
 
@@ -11,9 +11,9 @@ Requires Node 18+ and git available in `PATH`.
 
 ## Usage
 
-- `commitwizard` — run the commit wizard (prompts to stage all if nothing staged)
-- `commitwizard --pick` / `commitwizard -p` — pick files to stage before the wizard
-- `commitwizard --dry-run` — preview commit message/command without running git commit
+- `commitwiz` — run the commit wizard (prompts to stage all if nothing staged)
+- `commitwiz --pick` / `commitwiz -p` — pick files to stage before the wizard
+- `commitwiz --dry-run` — preview commit message/command without running git commit
 - `git wiz` / `git wiz -p` — same as above via git-style alias
 
 Run inside a git repository with pending changes. The wizard:

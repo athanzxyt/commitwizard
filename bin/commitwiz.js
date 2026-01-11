@@ -209,7 +209,7 @@ async function promptCommitDetails() {
 }
 
 async function writeTempMessage(content) {
-  const dir = await fs.mkdtemp(path.join(os.tmpdir(), "commitwizard-"));
+  const dir = await fs.mkdtemp(path.join(os.tmpdir(), "commitwiz-"));
   const filePath = path.join(dir, "COMMIT_MESSAGE.txt");
   await fs.writeFile(filePath, content, "utf8");
   return { dir, filePath };
