@@ -4,7 +4,7 @@ Interactive git commit wizard with Conventional Commit prompts, optional staging
 
 ## Install
 
-- `npm i -g commitwizard`
+- `npm i -g commitwizard-cli`
 - For local development: `npm install` then `npm link`
 
 Requires Node 18+ and git available in `PATH`.

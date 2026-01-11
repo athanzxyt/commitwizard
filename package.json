@@ -1,5 +1,5 @@
 {
-  "name": "commitwizard",
+  "name": "commitwizard-cli",
   "version": "0.1.0",
   "description": "Interactive git commit wizard with staging picker",
   "type": "module",
