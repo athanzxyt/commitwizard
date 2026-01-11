@@ -1,0 +1,25 @@
+{
+  "name": "commitwizard",
+  "version": "0.1.0",
+  "description": "Interactive git commit wizard with staging picker",
+  "type": "module",
+  "bin": {
+    "commitwizard": "./bin/commitwizard.js",
+    "git-wiz": "./bin/commitwizard.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "execa": "^8.0.1",
+    "inquirer": "^9.2.17"
+  },
+  "license": "MIT",
+  "keywords": [
+    "git",
+    "cli",
+    "commit",
+    "conventional-commits",
+    "wizard"
+  ]
+}
