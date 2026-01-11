@@ -1,6 +1,6 @@
 {
   "name": "commitwiz",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Interactive git commit wizard with staging picker",
   "type": "module",
   "author": "Athan Zhang <dev@athan.sh>",
