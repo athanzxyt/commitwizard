@@ -16,6 +16,14 @@
     "inquirer": "^9.2.17"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/athanzxyt/commitwiz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/athanzxyt/commitwiz/issues"
+  },
+  "homepage": "https://github.com/athanzxyt/commitwiz#readme",
   "keywords": [
     "git",
     "cli",
