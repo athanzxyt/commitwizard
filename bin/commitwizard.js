@@ -166,10 +166,17 @@ async function promptCommitDetails() {
       validate: (value) => (value && value.trim() ? true : 'Details are required for breaking changes.')
     },
     {
+      type: 'confirm',
+      name: 'wantsBody',
+      message: 'Add a detailed body? (opens editor)',
+      default: false
+    },
+    {
       type: 'editor',
       name: 'body',
-      message: 'Optional body (an editor will open)',
-      waitUserInput: true
+      message: 'Body (save & close to keep, empty to skip)',
+      waitUserInput: true,
+      when: (answers) => answers.wantsBody
     },
     {
       type: 'input',
